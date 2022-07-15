@@ -1,435 +1,438 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 /* Start General Code*/
-.container{
-    width: 85%;
-    margin: 0 auto;
+.container {
+  width: 85%;
+  margin: 0 auto;
 }
 ul {
-    list-style: none;
+  list-style: none;
+}
+h6,
+h2,
+h4 {
+  margin-bottom: 15px;
 }
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
-img{
-    width:100% ;
+img {
+  width: 100%;
 }
-.row{
-    display: table;
+
+.p-color {
+  color: #848684;
 }
-.cell{
-    display: table-cell;
+.section {
+  margin: 7% 0;
 }
-.p-color{
-    color: #848684;
+.btn {
+  padding: 10px 20px;
+  background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  border: transparent;
+  color: #fff;
+  margin-top: 3%;
 }
-.section{
-    margin: 7% 0 ;
+ul li {
+  padding: 10px;
 }
-.btn{
-    padding: 10px 20px;
-    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-    border: transparent;
-    color: #fff;
-    margin-top: 3%;
+.active {
+  color: #8490ff;
 }
-ul li{
-    float: left;
-    padding-left: 5% ;
+.section__title {
+  text-align: center;
 }
-.active{
-    color: #8490ff;
+button:focus {
+  outline: none;
 }
-.section__title{
-    text-align: center;
-}
-button:focus{
-    outline: none;
-}
-.clearfix{
-    clear: both;
+.clearfix {
+  clear: both;
 }
 /* End General Code*/
 /* Start Header*/
-.header  .nav{
+.header .nav {
   background-color: #fff;
-  padding: 1.5% 0; 
+  padding: 1% 0;
   position: fixed;
   width: 100%;
+  z-index: 111;
 }
-.header  .logo__img {
-   width: 12%;
-   float: left;
-   margin-right: 10%;
+.header .logo__img {
+  width: 12%;
+  float: left;
+  margin-right: 10%;
 }
-.header  .navigation__list {
-    width: 70%;
-    float: right;
-    padding-top: 1%;
+
+.header .navigation__list ul li a {
+  color: black;
 }
-.header  .navigation__list ul li a{
-    color: black;
+.header .navigation__list ul li a:hover {
+  color: #8490ff;
+  transition: 0.5s all ease-in-out;
 }
-.header  .navigation__list ul li a:hover{
-    color: #8490ff;
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.wrap {
+  flex-wrap: wrap;
+}
+.justify-right {
+  justify-content: right;
+}
+.justify-space-around {
+  justify-content: space-around;
+}
+.align-baseline {
+  align-items: baseline;
+}
+.col-lg-2 {
+  width: 19%;
+  margin: 30px auto;
+}
+.col-lg-3 {
+  width: 30%;
+  margin: 30px auto;
+}
+.col-lg-4 {
+  width: 23%;
+  margin: 30px auto;
+}
+.col-lg-6 {
+  width: 48%;
+  margin: 30px auto;
+}
+
 /* Start Home*/
 .home {
-    padding-top: 10%;
-    background-color: #eeeeee;
-    clear: both;
+  padding-top: 10%;
+  background-color: #eeeeee;
+  clear: both;
 }
-.home .home__text{
-    width: 40%;
-   vertical-align: middle;
+.home .home__text {
+  vertical-align: middle;
 }
-.home .home__text h6{
-    letter-spacing: 3px;
+.home .home__text h6 {
+  letter-spacing: 3px;
 }
-.home .home__text h1{
-    font-size: 350%;
-    padding: 4% 0 ;
+.home .home__text h1 {
+  font-size: 350%;
+  padding: 4% 0;
 }
-.home .home__img{
-    width: 40%;
-    vertical-align: top;
-} 
+.home .home__img {
+  vertical-align: top;
+}
 /* End Home*/
 /* End Header*/
 
 /* Start About*/
-#about .about__img{
-    width: 47%;
-    float: left;
-    margin-right: 5%;
-    clear: both;
-} 
-#about .about__text{
-    width: 45%;
-    float: left;
-    margin-top: 3%; 
-}
-#about .about__text h1{
-    padding: 4% 0 ;
+
+#about .about__text h1 {
+  padding: 4% 0;
 }
 /* End About*/
 
 /* Start service*/
-#service{
-    clear: both;
-    padding-top: 10%;
+#service {
+  clear: both;
+  padding-top: 10%;
 }
-#service .service__offers{
-    margin-top: 5%;
+#service .service__offers {
+  margin-top: 5%;
 }
-#service .service__offers__offer{
-    text-align: center;
-    width: 33%;
-    float: left;
-    padding:2% 5% ;
+#service .service__offers__offer {
+  text-align: center;
 }
-#service .service__offers__offer p{
-    font-size: 90%;
+#service .service__offers__offer p {
+  font-size: 90%;
 }
-#service .service__offers__offer i{
-    font-size: 180%;
+#service .service__offers__offer i {
+  font-size: 180%;
+  margin-bottom: 15px;
 }
 #service .service__offers__offer:hover i,
-#service .service__offers__offer:hover h4{
-    color: #8490ff;
+#service .service__offers__offer:hover h4 {
+  color: #8490ff;
+  transition: 0.5s all ease-in-out;
 }
 /* End service*/
 /* Start Numbers*/
-.Numbers{
-    clear: both;
-    color:#fff;
-    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-    text-align: center;
-    padding: 8% 0 12%;
-    margin-bottom: 8%;
+.Numbers {
+  clear: both;
+  color: #fff;
+  background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  text-align: center;
+  padding: 8% 0;
+  margin-bottom: 8%;
 }
-.Numbers__box{
-    float: left;
-    width: 24%;
-}
+
 /* End Numbers*/
 /* Start portfolio*/
-#portfolio{
-    clear: both;
+#portfolio {
+  clear: both;
 }
-#portfolio .portfolio__title{
-    margin-bottom: 10%;
+#portfolio .portfolio__title {
+  margin-bottom: 10%;
 }
-.portfolio__projects__list ul {
-   width: 50%;
-   padding-left: 8%;
-   margin: 5% auto ;
+
+.portfolio__projects__carts {
+  text-align: center;
+  padding: 1%;
 }
-.portfolio__projects__list ul li{
-    margin-bottom: 10%;
-    font-size: 80%;
+.portfolio__projects__carts__img {
+  position: relative;
 }
-.portfolio__projects__carts{
-    text-align: center;
-    width: 32%;
-    float: left;
-    padding: 1%;
+.portfolio__projects__carts__overlay {
+  position: absolute;
+  background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
 }
-.portfolio__projects__carts__img{
-    position: relative;
+.preview {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 20%;
+  display: none;
+  transition: 2s all ease-in-out;
 }
-.portfolio__projects__carts__overlay{
-    position: absolute;
-    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 10px;
-    visibility: hidden;
+.portfolio__projects__carts:hover .preview {
+  display: block;
+  transition: 1s all ease-in-out;
 }
-.preview{
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    width: 20%;
-    display: none;
-}
-.portfolio__projects__carts:hover .preview{
-    display: block;
-}
-.portfolio__projects__carts:hover .portfolio__projects__carts__overlay
-{
-    visibility: visible;
+.portfolio__projects__carts:hover .portfolio__projects__carts__overlay {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
 }
 /* End portfolio*/
 /* Start feedback*/
-.feedback{
-    background-color: #f7f4f4;
-    padding: 8% 0 ;
-    clear: both;
+.feedback {
+  background-color: #f7f4f4;
+  padding: 8% 0;
+  clear: both;
 }
-.feedback p{
-    font-size: 90%;
+.feedback p {
+  font-size: 90%;
 }
-.feedback__cart{
-    background-color: #fff;
-    padding: 2%;
-    vertical-align: middle;
-
+.feedback__cart {
+  background-color: #fff;
+  padding: 2%;
+  vertical-align: middle;
 }
-.feedback .row{
-    margin-top: 4%;
+.feedback .row {
+  margin-top: 4%;
 }
-.feedback .cell{
-    margin-left: 2%;
+.feedback .cell {
+  margin-left: 2%;
 }
-.feedback__cart h3{
-    padding: 4% 0;
+.feedback__cart h3 {
+  padding: 4% 0;
 }
-.feedback__cart:hover h3{
-    color: #8490ff;
+.feedback__cart:hover h3 {
+  color: #8490ff;
 }
-.feedback__cart__img{
-    float: left;
-    width: 10%;
+.feedback__cart__img {
+  float: left;
+  width: 10%;
 }
-.feedback__cart__info{
-    padding-left: 15%;
+.feedback__cart__info {
+  padding-left: 15%;
 }
 /* End feedback*/
 /* Start pricing*/
-#pricing{
-    padding-top: 5%;
-    clear: both;
+#pricing {
+  padding-top: 5%;
+  clear: both;
+}
+#pricing h1 span {
+  width: 50%;
+  margin: 0 0 0 -20px;
 }
 .pricing__cart {
-    margin-top: 8%;
+  margin-top: 8%;
 }
-.pricing__cart h3{
-    margin: 0 auto ;
+.pricing__cart h3 {
+  margin: 0 auto;
 }
-.pricing__cart p{
-    margin: 8% 0;
+.pricing__cart p {
+  margin: 8% 0;
 }
-.pricing__cart__item{
-    float: left;
-    width: 25%;
-    padding: 2%;
-    text-align: center;
+.pricing__cart__item {
+  float: left;
+  width: 25%;
+  padding: 2%;
+  text-align: center;
+  background: transparent;
 }
-.pricing__cart__item ul li p{
-    display: block;
-    text-align: justify;
-    border-top: #eeeeee 3px solid;
-    padding: 5% 0 0;
+.pricing__cart__item ul li {
+  padding: 0;
 }
-.pricing__cart__item__header{
-    padding: 20%;
-    border: #eeeeee 40px solid;
-    background-color: #f8f5f5;
-    width: 20%;
-    height: 20%;
-    line-height: 20%;
-    border-radius: 50%;
-    margin: 0 12% 10%; 
+.pricing__cart__item ul li p {
+  display: block;
+  text-align: justify;
+  border-top: #eeeeee 3px solid;
+  padding: 5% 0 0;
+  text-align: center;
 }
-.pricing__cart__item__header h1{
-    font-size: 200%;
+.pricing__cart__item__header {
+  padding: 20%;
+  border: #eeeeee 40px solid;
+  background-color: #f8f5f5;
+  width: 20%;
+  height: 20%;
+  line-height: 20%;
+  border-radius: 50%;
+  margin: 0 12% 10%;
 }
-.pricing__cart__item button{
-    width: 100%;
-    padding: 5% 2%;
-    font-weight: bold;
-    font-size: 90%;
-    background: #eee;
-    border: transparent 1px solid;
-    display: none;
+.pricing__cart__item__header h1 {
+  font-size: 200%;
 }
-.pricing__cart__item:hover button{
-    display: block;
+.pricing__cart__item button {
+  width: 100%;
+  padding: 5% 2%;
+  font-weight: bold;
+  font-size: 90%;
+  background: #eee;
+  border: transparent 1px solid;
+  display: none;
+}
+.pricing__cart__item:hover button {
+  display: block;
 }
 .pricing__cart__item:hover p,
 .pricing__cart__item:hover h1,
-.pricing__cart__item:hover h3{
-    color: #fff;
+.pricing__cart__item:hover h3 {
+  color: #fff;
 }
-.pricing__cart__item:hover h2{
-    display: none;
+.pricing__cart__item:hover h2 {
+  display: none;
 }
-.pricing__cart__item:hover{
-    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+.pricing__cart__item:hover {
+  background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
-.pricing__cart__item:hover .pricing__cart__item__header{
-    background-color: #b9c0fa;
-    border: #b2b8f8 40px solid;
+.pricing__cart__item:hover .pricing__cart__item__header {
+  background-color: #b9c0fa;
+  border: #b2b8f8 40px solid;
 }
 /* End pricing*/
 /* Start Blog*/
-#blog{
-    padding-top: 6%;
-    clear:both;
+#blog {
+  clear: both;
 }
-#blog .section__title h1{
-    padding-bottom: 3%;
+#blog .section__title h1 {
+  padding-bottom: 3%;
 }
-.blog__cart{
-    width: 33%;
-    float: left;
-    margin-top: 5%;
-    padding: 1%;
+.blog__cart {
+  width: 33%;
+  float: left;
+  margin-top: 5%;
+  padding: 1%;
 }
-.blog__cart__img img{
-    object-fit: cover;
+.blog__cart__img img {
+  object-fit: cover;
 }
-.blog__cart__info img{
-    width: 10%;
-    padding-right: 2%;
+.blog__cart__info img {
+  width: 10%;
+  padding-right: 2%;
 }
-.blog__cart__info p{
-    display: inline;
-    font-size: 90%;
-    
+.blog__cart__info p {
+  display: inline;
+  font-size: 90%;
 }
-.blog__cart__info .date{
-    padding-left: 20%;
+.blog__cart__info .date {
+  padding-left: 20%;
 }
-.blog__cart__info i{
-    padding: 0 1%;
+.blog__cart__info i {
+  padding: 0 1%;
 }
-.blog__cart__text{
-    padding-top: 10%;
+.blog__cart__text {
+  padding-top: 10%;
 }
-.blog__cart__text h4{
-    padding-bottom: 3%;
-    font-size: 110%;
+.blog__cart__text h4 {
+  padding-bottom: 3%;
+  font-size: 110%;
 }
-.blog__cart:hover h4{
-    color: #8490ff;
+.blog__cart:hover h4 {
+  color: #8490ff;
 }
 /* End Blog*/
 /* Start Logo*/
-.logo{
-    margin-top: 5%;
-    color:#fff;
-    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-    text-align: center;
-    padding: 3% 0;
-    margin-bottom: 0;
-    clear:both;
+.logo {
+  margin-top: 5%;
+  color: #fff;
+  background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  text-align: center;
+  padding: 3% 0;
+  margin-bottom: 0;
+  clear: both;
 }
-.logo .logo__box{
-    width: 15%;
-    padding: 2%;
+.logo .logo__box {
+  padding: 2%;
 }
-.logo .logo__box img{
-    width: 80%;
-    opacity: .5;
+.logo .logo__box img {
+  width: 100%;
+  opacity: 0.5;
 }
-.logo .logo__box:hover img{
-    opacity: 1;
+.logo .logo__box:hover img {
+  opacity: 1;
 }
 /* End Logo*/
 /* Start Footer*/
-.footer{
-    background-color: #04091E;
-    padding: 5% 0 ;
-    color: #fff;
-    clear:both;
+.footer {
+  background-color: #04091e;
+  padding: 5% 0;
+  color: #fff;
+  clear: both;
 }
-.footer p{
-    color: #777769;
+.footer p {
+  color: #777769;
 }
-.footer__about{
-    width: 39%;
-    padding: 1%;
+
+.footer__Newsletter i {
+  color: #fff;
+  padding: 5%;
 }
-.footer__Newsletter{
-    width: 39%;
-    padding: 1%;
+.footer__Newsletter__form {
+  position: relative;
+  padding: 30% 0;
 }
-.footer__Newsletter i{
-    color: #fff;
-    padding: 5%;
+.footer__Newsletter__form input {
+  padding: 2% 10%;
+  width: 85%;
+  position: absolute;
+  top: 10%;
+  left: 0;
 }
-.footer__Newsletter__form{
-    position: relative;
-    padding: 30% 0 ;
+.footer__Newsletter__form button {
+  position: absolute;
+  padding: 2.5% 5%;
+  top: 5%;
+  right: 3%;
 }
-.footer__Newsletter__form input{
-    padding: 2% 10%;
-    width: 85%;
-    position: absolute;
-    top: 10%;
-    left: 0;
+.footer__Follow {
+  width: 20%;
+  padding: 1%;
 }
-.footer__Newsletter__form button{
-    position: absolute;
-    padding: 2.5% 5%;
-    top: 5% ;
-    right: 3%;
+.footer__Follow ul {
+  padding-left: 0;
 }
-.footer__Follow{
-    width: 20%;
-    padding: 1% ;
+.footer__Follow ul li {
+  padding-top: 10%;
 }
-.footer__Follow ul{
-    padding-left: 0;
+.footer a {
+  color: #fff;
+  font-size: 120%;
 }
-.footer__Follow ul li{
-   padding-top: 10%;
-}
-.footer a{
-    color: #fff;
-    font-size: 120%;
-}
-.footer .cell{
-    vertical-align:top;
+.footer .cell {
+  vertical-align: top;
 }
 /* End Footer*/

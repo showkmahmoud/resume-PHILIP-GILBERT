@@ -18,17 +18,17 @@
       <div class="nav">
         <div class="container">
           <div class="logo__img">
-            <img src="assets/images/logo.png" alt="" srcset="" />
+            <a href="#about"
+              ><img src="assets/images/logo.png" alt="" srcset=""
+            /></a>
           </div>
           <div class="navigation__list">
-            <ul>
+            <ul class="row justify-right">
               <li><a class="active" href="#home"> Home </a></li>
               <li><a href="#about"> About</a></li>
               <li><a href="#service"> Service </a></li>
               <li><a href="#portfolio"> Portfolio </a></li>
-              <li><a href="#pricing"> Pricing </a></li>
-              <li><a href="#Blog"> Blog </a></li>
-              <li><a href="#pages"> Pages </a></li>
+              <li><a href="#blog"> Blog </a></li>
               <li><a href="#contact"> Contact </a></li>
             </ul>
           </div>
@@ -36,9 +36,9 @@
       </div>
     </div>
     <!-- Start Home -->
-    <div class="home">
-      <div class="container row">
-        <div class="home__text cell">
+    <div id="home" class="home">
+      <div class="container row wrap">
+        <div class="home__text col-sm-12 col-md-6 col-lg-6">
           <h6>THIS IS ME</h6>
           <h1>PHILIP GILBERT</h1>
           <p class="p-color">
@@ -47,7 +47,7 @@
           </p>
           <button class="btn">DISCOVER NOW</button>
         </div>
-        <div class="home__img cell">
+        <div class="home__img col-sm-12 col-md-6 col-lg-6">
           <img src="assets/images/hero-img.png" alt="" srcset="" />
         </div>
       </div>
@@ -55,11 +55,11 @@
     <!-- End Home -->
     <!-- Start About -->
     <div id="about" class="section">
-      <div class="container">
-        <div class="about__img">
+      <div class="container row wrap">
+        <div class="about__img col-sm-12 col-md-6 col-lg-6">
           <img src="assets/images/about-img.png" alt="" srcset="" />
         </div>
-        <div class="about__text">
+        <div class="about__text col-sm-12 col-md-6 col-lg-6">
           <h6>ABOUT ME</h6>
           <h2>PERSONAL DETAILS</h2>
           <p class="p-color">
@@ -86,8 +86,8 @@
             company growth.
           </p>
         </div>
-        <div class="service__offers">
-          <div class="service__offers__offer">
+        <div class="service__offers row wrap">
+          <div class="service__offers__offer col-sm-12 col-md-6 col-lg-3">
             <i class="fa fa-chart-pie" aria-hidden="true"></i>
             <h4>Web Design</h4>
             <p class="p-color">
@@ -95,14 +95,14 @@
               launch you as a brand.
             </p>
           </div>
-          <div class="service__offers__offer">
+          <div class="service__offers__offer col-sm-12 col-md-6 col-lg-3">
             <i class="fa fa-laptop" aria-hidden="true"></i>
             <h4>Web Development</h4>
             <p class="p-color">
               Get your website - personal or business built with creative ideas.
             </p>
           </div>
-          <div class="service__offers__offer">
+          <div class="service__offers__offer col-sm-12 col-md-6 col-lg-3">
             <i class="fa fa-camera" aria-hidden="true"></i>
             <h4>Photography</h4>
             <p class="p-color">
@@ -111,14 +111,14 @@
               catalog designing.
             </p>
           </div>
-          <div class="service__offers__offer">
+          <div class="service__offers__offer col-sm-12 col-md-6 col-lg-3">
             <i class="fa fa-image" aria-hidden="true"></i>
             <h4>App Development</h4>
             <p class="p-color">
               Launch your business not just on the web, but also on phone.
             </p>
           </div>
-          <div class="service__offers__offer">
+          <div class="service__offers__offer col-sm-12 col-md-6 col-lg-3">
             <i class="fa fa-tablet-alt" aria-hidden="true"></i>
             <h4>App Design</h4>
             <p class="p-color">
@@ -126,7 +126,7 @@
               style.
             </p>
           </div>
-          <div class="service__offers__offer">
+          <div class="service__offers__offer col-sm-12 col-md-6 col-lg-3">
             <i class="fa fa-rocket" aria-hidden="true"></i>
             <h4>Graphic Design</h4>
             <p class="p-color">
@@ -141,20 +141,20 @@
     <!-- End service -->
     <!-- Start Numbers -->
     <div class="Numbers">
-      <div class="container">
-        <div class="Numbers__box">
+      <div class="container row wrap">
+        <div class="col-sm-12 col-md-6 col-lg-4">
           <h2>2536</h2>
           <p>Projects Completed</p>
         </div>
-        <div class="Numbers__box">
+        <div class="col-sm-12 col-md-6 col-lg-4">
           <h2>6784</h2>
           <p>Happy Clients</p>
         </div>
-        <div class="Numbers__box">
+        <div class="col-sm-12 col-md-6 col-lg-4">
           <h2>2239</h2>
           <p>Cups of Coffee</p>
         </div>
-        <div class="Numbers__box">
+        <div class="col-sm-12 col-md-6 col-lg-4">
           <h2>434</h2>
           <p>Real Professionals</p>
         </div>
@@ -168,17 +168,8 @@
           <h2>My Latest Featured Projects</h2>
           <p class="p-color">Here are some of my favourite and best works.</p>
         </div>
-        <div class="portfolio__projects">
-          <div class="portfolio__projects__list">
-            <ul>
-              <li><a class="active" href="#">ALL</a></li>
-              <li><a href="#">VECTOR</a></li>
-              <li><a href="#">RASTER</a></li>
-              <li><a href="#">UI/UX</a></li>
-              <li><a href="#">PRINTING</a></li>
-            </ul>
-          </div>
-          <div class="portfolio__projects__carts clearfix">
+        <div class="portfolio__projects row wrap">
+          <div class="portfolio__projects__carts col-sm-12 col-md-6 col-lg-3">
             <div class="portfolio__projects__carts__img">
               <div class="portfolio__projects__carts__overlay"></div>
               <img src="assets/images/p1.jpg" alt="" srcset="" />
@@ -193,7 +184,7 @@
             <h4>2D Vinyl Design</h4>
             <p class="p-color">vector</p>
           </div>
-          <div class="portfolio__projects__carts">
+          <div class="portfolio__projects__carts col-sm-12 col-md-6 col-lg-3">
             <div class="portfolio__projects__carts__img">
               <div class="portfolio__projects__carts__overlay"></div>
               <img src="assets/images/p2.jpg" alt="" srcset="" />
@@ -207,7 +198,7 @@
             <h4>2D Vinyl Design</h4>
             <p class="p-color">vector</p>
           </div>
-          <div class="portfolio__projects__carts">
+          <div class="portfolio__projects__carts col-sm-12 col-md-6 col-lg-3">
             <div class="portfolio__projects__carts__img">
               <div class="portfolio__projects__carts__overlay"></div>
               <img src="assets/images/p3.jpg" alt="" srcset="" />
@@ -221,7 +212,7 @@
             <h4>2D Vinyl Design</h4>
             <p class="p-color">vector</p>
           </div>
-          <div class="portfolio__projects__carts">
+          <div class="portfolio__projects__carts col-sm-12 col-md-6 col-lg-3">
             <div class="portfolio__projects__carts__img">
               <div class="portfolio__projects__carts__overlay"></div>
               <img src="assets/images/p4.jpg" alt="" srcset="" />
@@ -235,7 +226,7 @@
             <h4>2D Vinyl Design</h4>
             <p class="p-color">vector</p>
           </div>
-          <div class="portfolio__projects__carts">
+          <div class="portfolio__projects__carts col-sm-12 col-md-6 col-lg-3">
             <div class="portfolio__projects__carts__img">
               <div class="portfolio__projects__carts__overlay"></div>
               <img src="assets/images/p5.jpg" alt="" srcset="" />
@@ -249,7 +240,7 @@
             <h4>2D Vinyl Design</h4>
             <p class="p-color">vector</p>
           </div>
-          <div class="portfolio__projects__carts">
+          <div class="portfolio__projects__carts col-sm-12 col-md-6 col-lg-3">
             <div class="portfolio__projects__carts__img">
               <div class="portfolio__projects__carts__overlay"></div>
               <img src="assets/images/p6.jpg" alt="" srcset="" />
@@ -276,8 +267,8 @@
             Here are a few words of encouragement to try me out.
           </p>
         </div>
-        <div class="row">
-          <div class="feedback__cart cell">
+        <div class="row wrap">
+          <div class="feedback__cart col-sm-12 col-md-6 col-lg-6">
             <div class="feedback__cart__img">
               <img src="assets/images/elements/user1.png" alt="" srcset="" />
             </div>
@@ -291,7 +282,7 @@
               <p class="p-color">Student at caharlotte University</p>
             </div>
           </div>
-          <div class="feedback__cart cell">
+          <div class="feedback__cart col-sm-12 col-md-6 col-lg-6">
             <div class="feedback__cart__img">
               <img src="assets/images/elements/user2.png" alt="" srcset="" />
             </div>
@@ -319,10 +310,10 @@
             did they.
           </p>
         </div>
-        <div class="pricing__cart">
-          <div class="pricing__cart__item">
+        <div class="pricing__cart row wrap">
+          <div class="pricing__cart__item col-sm-12 col-md-6 col-lg-4">
             <div class="pricing__cart__item__header">
-              <h1>01</h1>
+              <h1><span>01</span></h1>
             </div>
             <h3>Economy</h3>
             <p class="p-color">For the individuals</p>
@@ -340,9 +331,9 @@
             <h2>$199.00</h2>
             <button>Buy Now</button>
           </div>
-          <div class="pricing__cart__item">
+          <div class="pricing__cart__item col-sm-12 col-md-6 col-lg-4">
             <div class="pricing__cart__item__header">
-              <h1>02</h1>
+              <h1><span>02</span></h1>
             </div>
             <h3>Economy</h3>
             <p class="p-color">For the individuals</p>
@@ -360,9 +351,9 @@
             <h2>$199.00</h2>
             <button>Buy Now</button>
           </div>
-          <div class="pricing__cart__item">
+          <div class="pricing__cart__item col-sm-12 col-md-6 col-lg-4">
             <div class="pricing__cart__item__header">
-              <h1>03</h1>
+              <h1><span>03</span></h1>
             </div>
             <h3>Economy</h3>
             <p class="p-color">For the individuals</p>
@@ -380,9 +371,9 @@
             <h2>$199.00</h2>
             <button>Buy Now</button>
           </div>
-          <div class="pricing__cart__item">
+          <div class="pricing__cart__item col-sm-12 col-md-6 col-lg-4">
             <div class="pricing__cart__item__header">
-              <h1>04</h1>
+              <h1><span>04</span></h1>
             </div>
             <h3>Economy</h3>
             <p class="p-color">For the individuals</p>
@@ -414,97 +405,99 @@
             Graphic Design. I also write blogs on web development.
           </p>
         </div>
-        <div class="blog__cart">
-          <div class="blog__cart__img">
-            <img src="assets/images/b1.jpg" alt="" srcset="" />
+        <div class="row wrap">
+          <div class="blog__cart col-sm-12 col-md-6 col-lg-4">
+            <div class="blog__cart__img">
+              <img src="assets/images/b1.jpg" alt="" srcset="" />
+            </div>
+            <div class="blog__cart__info">
+              <img src="assets/images/user.png" alt="" srcset="" />
+              <p class="p-color">Philip Gilbert</p>
+              <p class="p-color date">
+                13th Dec
+                <i class="fa fa-heart" aria-hidden="true"> 15 </i>
+                <i class="fa fa-comment" aria-hidden="true"> 04</i>
+              </p>
+            </div>
+            <div class="blog__cart__text">
+              <h4>BREAK THROUGH SELF DOUBT AND FEAR</h4>
+              <p class="p-color">
+                Dream interpretation has many forms; it can be done be done for
+                the sake of fun, hobby or can be taken up as a serious career.
+              </p>
+            </div>
           </div>
-          <div class="blog__cart__info">
-            <img src="assets/images/user.png" alt="" srcset="" />
-            <p class="p-color">Philip Gilbert</p>
-            <p class="p-color date">
-              13th Dec
-              <i class="fa fa-heart" aria-hidden="true"> 15 </i>
-              <i class="fa fa-comment" aria-hidden="true"> 04</i>
-            </p>
+          <div class="blog__cart col-sm-12 col-md-6 col-lg-4">
+            <div class="blog__cart__img">
+              <img src="assets/images/b2.jpg" alt="" srcset="" />
+            </div>
+            <div class="blog__cart__info">
+              <img src="assets/images/user.png" alt="" srcset="" />
+              <p class="p-color">Philip Gilbert</p>
+              <p class="p-color date">
+                13th Dec
+                <i class="fa fa-heart" aria-hidden="true"> 15 </i>
+                <i class="fa fa-comment" aria-hidden="true"> 04</i>
+              </p>
+            </div>
+            <div class="blog__cart__text">
+              <h4>HOW TO CREATE YOUR OWN WEBSITE</h4>
+              <p class="p-color">
+                Dream interpretation has many forms; it can be done be done for
+                the sake of fun, hobby or can be taken up as a serious career.
+              </p>
+            </div>
           </div>
-          <div class="blog__cart__text">
-            <h4>BREAK THROUGH SELF DOUBT AND FEAR</h4>
-            <p class="p-color">
-              Dream interpretation has many forms; it can be done be done for
-              the sake of fun, hobby or can be taken up as a serious career.
-            </p>
-          </div>
-        </div>
-        <div class="blog__cart">
-          <div class="blog__cart__img">
-            <img src="assets/images/b2.jpg" alt="" srcset="" />
-          </div>
-          <div class="blog__cart__info">
-            <img src="assets/images/user.png" alt="" srcset="" />
-            <p class="p-color">Philip Gilbert</p>
-            <p class="p-color date">
-              13th Dec
-              <i class="fa fa-heart" aria-hidden="true"> 15 </i>
-              <i class="fa fa-comment" aria-hidden="true"> 04</i>
-            </p>
-          </div>
-          <div class="blog__cart__text">
-            <h4>HOW TO CREATE YOUR OWN WEBSITE</h4>
-            <p class="p-color">
-              Dream interpretation has many forms; it can be done be done for
-              the sake of fun, hobby or can be taken up as a serious career.
-            </p>
-          </div>
-        </div>
-        <div class="blog__cart">
-          <div class="blog__cart__img">
-            <img src="assets/images/b3.jpg" alt="" srcset="" />
-          </div>
-          <div class="blog__cart__info">
-            <img src="assets/images/user.png" alt="" srcset="" />
-            <p class="p-color">Philip Gilbert</p>
-            <p class="p-color date">
-              13th Dec
-              <i class="fa fa-heart" aria-hidden="true"> 15 </i>
-              <i class="fa fa-comment" aria-hidden="true"> 04</i>
-            </p>
-          </div>
-          <div class="blog__cart__text">
-            <h4>DO DREAMS SERVE AS A PREMONITION</h4>
-            <p class="p-color">
-              Dream interpretation has many forms; it can be done be done for
-              the sake of fun, hobby or can be taken up as a serious career.
-            </p>
+          <div class="blog__cart col-sm-12 col-md-6 col-lg-4">
+            <div class="blog__cart__img">
+              <img src="assets/images/b3.jpg" alt="" srcset="" />
+            </div>
+            <div class="blog__cart__info">
+              <img src="assets/images/user.png" alt="" srcset="" />
+              <p class="p-color">Philip Gilbert</p>
+              <p class="p-color date">
+                13th Dec
+                <i class="fa fa-heart" aria-hidden="true"> 15 </i>
+                <i class="fa fa-comment" aria-hidden="true"> 04</i>
+              </p>
+            </div>
+            <div class="blog__cart__text">
+              <h4>DO DREAMS SERVE AS A PREMONITION</h4>
+              <p class="p-color">
+                Dream interpretation has many forms; it can be done be done for
+                the sake of fun, hobby or can be taken up as a serious career.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- End Blog -->
     <!-- Start Logos -->
-    <div class="logo section">
-      <div class="container row">
-        <div class="logo__box cell">
+    <div id="pages" class="logo section">
+      <div class="container row wrap align-baseline">
+        <div class="logo__box col-sm-7 col-md-6 col-lg-2">
           <img src="assets/images/l1.png" alt="" srcset="" />
         </div>
-        <div class="logo__box cell">
+        <div class="logo__box col-sm-7 col-md-6 col-lg-2">
           <img src="assets/images/l2.png" alt="" srcset="" />
         </div>
-        <div class="logo__box cell">
+        <div class="logo__box col-sm-7 col-md-6 col-lg-2">
           <img src="assets/images/l3.png" alt="" srcset="" />
         </div>
-        <div class="logo__box cell">
+        <div class="logo__box col-sm-7 col-md-6 col-lg-2">
           <img src="assets/images/l4.png" alt="" srcset="" />
         </div>
-        <div class="logo__box cell">
+        <div class="logo__box col-sm-7 col-md-6 col-lg-2">
           <img src="assets/images/l5.png" alt="" srcset="" />
         </div>
       </div>
     </div>
     <!-- End Logos -->
     <!-- Start footer -->
-    <div class="footer">
-      <div class="container row">
-        <div class="footer__about cell">
+    <div id="contact" class="footer">
+      <div class="container row wrap">
+        <div class="footer__about col-sm-12 col-md-12 col-lg-4">
           <h3>About Me</h3>
           <p>
             Hi I'm Philip a talented art director, graphic designer and
@@ -517,7 +510,7 @@
             Colorlib
           </p>
         </div>
-        <div class="footer__Newsletter cell">
+        <div class="footer__Newsletter col-sm-12 col-md-12 col-lg-4">
           <h3>Newsletter</h3>
           <p>Stay updated with my latest trends</p>
           <div class="footer__Newsletter__form">
@@ -525,10 +518,10 @@
             <button class="btn"><i class="fas fa-arrow-right"></i></button>
           </div>
         </div>
-        <div class="footer__Follow cell">
+        <div class="footer__Follow col-sm-12 col-md-12 col-lg-4">
           <h3>Follow Me</h3>
           <p>Let us be social</p>
-          <ul>
+          <ul class="row justify-space-around">
             <li>
               <a href="#"> <i class="fab fa-facebook"></i> </a>
             </li>
